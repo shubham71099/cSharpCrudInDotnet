@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ExamFinalCRUD.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="background-color:cornsilk">
+                <h2 style="text-align:center">Student Management System</h2><br />
+                &nbsp;<a href="Home.aspx">Home</a>&nbsp;&nbsp;&nbsp;<a href="Register.aspx">Add Data</a>&nbsp;&nbsp;&nbsp;<a href="ShowData.aspx">Show Data</a>
+                &nbsp;&nbsp;&nbsp;<a href="Filter.aspx">Filter&nbsp;&nbsp;&nbsp;<a href="Reg.aspx">Register</a>&nbsp;&nbsp;&nbsp;<a href="Log.aspx">Login</a><br />
+            </div>
+        
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
